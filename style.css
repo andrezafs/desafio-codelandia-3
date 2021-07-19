@@ -19,16 +19,17 @@ header {
     justify-content: space-between;
     padding: 10rem;
     background: var(--purple);
-    flex-wrap: wrap;
    
 }
 
 .container .text h2 {
     font-size: 3.6rem;
+    font-family:'Merriweather', serif; ;
    
 }
 .container .text p {
     font-size: 1.9rem;
+    font-family:'Lato', sans-serif; 
     margin-top: 1.75rem;
     margin-bottom: 4.5rem;
 }
