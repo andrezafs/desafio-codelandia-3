@@ -7,5 +7,54 @@ font-family: 'Merriweather', serif; */
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    text-decoration: none;
     font-size: 62.5%;
+}
+header {
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem;
+    background: var(--purple);
+    flex-wrap: wrap;
+   
+}
+
+.container .text h2 {
+    font-size: 3.6rem;
+   
+}
+.container .text p {
+    font-size: 1.9rem;
+    margin-top: 1.75rem;
+    margin-bottom: 4.5rem;
+}
+.container .text button {
+    background: var(--blue);
+    border: 0;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 5px;
+    width: 15.5rem;
+    height: 5rem;
+    
+}
+
+.container .text button a{
+    font-size: 2rem;
+    color: var(--white);
+}
+@media (max-width: 1000px) {
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+    }
+    .container .image img {
+        width: 100%;
+        margin-top: 11.4rem;
+    }
 }
