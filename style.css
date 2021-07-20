@@ -48,27 +48,31 @@ header {
     color: var(--white);
 }
 .container-main {
-    padding: 10rem 15rem;
+    margin-top: 15rem;
+    padding:0 10rem ;
 }
-.container-color  {
+.card {
     width: 34rem;
     height: 42.3rem;
-    display: flex;
-    flex-direction: column;
-    background-color: coral;
-  
 }
-.container-color h2 {
+ .card-color {
+    height: 50%;
+    background-color: crimson;
+}
+.card-text {
+    height: 50%;
+    background-color: darkgoldenrod;
+}
+
+.card-text h2 {
     font-size: 2.4rem;
 
 }
-.container-color p {
+.card-text p {
     font-size: 1.8rem;
 }
-.container-color > .color {
-    height: 50%;  
-}
-.container-color > .color-text {
+
+.card > .card-text {
    padding: 3rem;
 }
 
