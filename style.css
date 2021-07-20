@@ -24,7 +24,7 @@ header {
 
 .container .text h2 {
     font-size: 3.6rem;
-    font-family:'Merriweather', serif; ;
+    font-family:'Merriweather', serif; 
    
 }
 .container .text p {
@@ -90,11 +90,17 @@ header {
     background-color: var(--blue-dark);
 }
 .card-text h2 {
+    margin-top: 2.1rem;
+    font-family: 'Merriweather', serif ;
     font-size: 2.4rem;
+    color: var(--black);
 
 }
 .card-text p {
+    margin-top: 2.9rem;
+    font-family:'Lato', sans-serif; 
     font-size: 1.8rem;
+    color: var(--grey);
 }
 
 .card > .card-text {
