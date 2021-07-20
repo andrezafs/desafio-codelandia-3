@@ -48,12 +48,17 @@ header {
     color: var(--white);
 }
 .container-main {
-    margin-top: 15rem;
-    padding:0 10rem ;
+    padding:15rem 10rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
 }
 .card {
     width: 34rem;
     height: 42.3rem;
+    margin-bottom: 6.8rem;
+
 }
  .card-color {
     height: 50%;
