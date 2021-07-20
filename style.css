@@ -58,7 +58,9 @@ header {
    
     width: 34rem;
     height: 42.3rem;
-    margin-bottom: 6.8rem;
+    margin-bottom: 6.8rem;           
+    background: var(--white);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 
 }
 
