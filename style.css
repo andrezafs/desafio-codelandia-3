@@ -55,18 +55,39 @@ header {
   
 }
 .card {
+   
     width: 34rem;
     height: 42.3rem;
     margin-bottom: 6.8rem;
 
 }
- .card-color {
+
+.card > .card-color-orange {
     height: 50%;
-    background-color: crimson;
+    background-color: var(--orange);
+}
+.card > .card-color-blue {
+    height: 50%;
+    background-color: var(--blue-baby);
+}
+.card > .card-color-purple {
+    height: 50%;
+    background-color: var(--purple-dark);
+}
+.card > .card-color-green {
+    height: 50%;
+    background-color: var(--green);
+}
+.card > .card-color-yellow {
+    height: 50%;
+    background-color: var(--yellow);
+}
+.card > .card-color-bluedark {
+    height: 50%;
+    background-color: var(--blue-dark);
 }
 .card-text {
-    height: 50%;
-    background-color: darkgoldenrod;
+    height: 50%;  
 }
 
 .card-text h2 {
