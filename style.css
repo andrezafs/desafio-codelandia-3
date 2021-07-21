@@ -10,28 +10,43 @@ font-family: 'Merriweather', serif; */
     text-decoration: none;
     font-size: 62.5%;
 }
-header {
-    
+h2 {
+    margin: 0;
+    font-family:'Merriweather', serif; 
+}
+button, input, textarea {
+    border: 0;
+    border-radius: .6rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  button a{
+    font-size: 2rem;
+    color: var(--white);
+    font-family:'Lato', sans-serif;
+    line-height: 2.4rem;
 }
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10rem;
-    background: var(--purple);
+      background: var(--purple);
    
 }
 
 .container .text h2 {
-    font-size: 3.6rem;
-    font-family:'Merriweather', serif; 
-   
+    font-size: 3.6rem;  
 }
 .container .text p {
     font-size: 1.9rem;
     font-family:'Lato', sans-serif; 
     margin-top: 1.75rem;
     margin-bottom: 4.5rem;
+    line-height: 4.7rem;
 }
 .container .text button {
     background: var(--blue);
@@ -40,43 +55,33 @@ header {
     border-radius: 5px;
     width: 15.5rem;
     height: 5rem;
-    
 }
 
-.container .text button a{
-    font-size: 2rem;
-    color: var(--white);
-}
 .container-main {
     padding:15rem 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  
+    width: 100%;
+    background: var(--background);
 }
 .card {
-   
     width: 34rem;
     height: 42.3rem;
     margin-bottom: 6.8rem;           
     background: var(--white);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-
 }
 .card-color {
     height: 50%;
 }
-
 #orange {
-    height: 50%;
     background-color: var(--orange);
 }
 #blue {
-    height: 50%;
     background-color: var(--blue-baby);
 }
 #purple {
-    height: 50%;
     background-color: var(--purple-dark);
 }
 #green {
@@ -86,15 +91,12 @@ header {
     background-color: var(--yellow);
 }
 #bluedark {
-    height: 50%;
     background-color: var(--blue-dark);
 }
 .card-text h2 {
     margin-top: 2.1rem;
-    font-family: 'Merriweather', serif ;
     font-size: 2.4rem;
     color: var(--black);
-
 }
 .card-text p {
     margin-top: 2.9rem;
@@ -103,7 +105,7 @@ header {
     color: var(--grey);
 }
 
-.card > .card-text {
+ .card-text {
    padding: 3rem;
 }
 footer {
@@ -114,29 +116,24 @@ footer {
 .container-contato  {
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-  
+    justify-content: center; 
 }
 .container-contato form {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 .container-contato form h2 {
     font-size: 3.2rem;
     text-align: center;
     color: var(--black);
-    font-family: 'Merriweather', serif ;
     margin-bottom: 6rem ;
 }
 .container-contato input, textarea {
     width:47rem ;
     height: 6.5rem;
-    border: none;
-    border-radius: .6rem;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
+    padding: 1.5rem;
 }
 ::placeholder {
     font-size: 1.8rem;
@@ -145,12 +142,7 @@ footer {
 }
 textarea {
     height: 16.5rem;
-}
-.container-contato button a{
-    font-size: 2rem;
-    color: var(--white);
-    font-family:'Lato', sans-serif;
-    line-height: 2.4rem;
+    resize: none;
 }
 .container-contato button {
     height: 5rem;
@@ -160,18 +152,31 @@ textarea {
     box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
     background: var(--blue-dark);
 }
+button:focus,
+input:focus {
+  border: 0;
+}
 
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .container, .container-main{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         padding: 5%;
     }
+    .container .text p {
+        line-height: 3.2rem;
+    }
     .container .image img {
         width: 100%;
         margin-top: 11.4rem;
     }
- 
+    .container-contato input, textarea {
+        width:40rem ;
+        height: 6.5rem;
+    } 
+    .container-contato textarea {
+        height: 15rem;
+    }
 }
