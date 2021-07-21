@@ -48,7 +48,7 @@ header {
     color: var(--white);
 }
 .container-main {
-    padding:15rem 10rem ;
+    padding:15rem 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -106,9 +106,48 @@ header {
 .card > .card-text {
    padding: 3rem;
 }
+footer {
+    background: var(--purple);
+    padding: 8rem 0;
+}
+
+.container-contato  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+.container-contato form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-contato form h2 {
+    font-size: 3.2rem;
+    text-align: center;
+    color: var(--black);
+    font-family: 'Merriweather', serif ;
+}
+.container-contato input {
+    width:47rem ;
+    height: 6.5rem;
+}
+::placeholder {
+    font-size: 1.8rem;
+    color: var(--grey);
+    font-family:'Lato', sans-serif;
+}
+.container-contato button a {
+    font-size: 2rem;
+    color: var(--white);
+    font-family:'Lato', sans-serif;
+    line-height: 2.4rem;
+}
+
 
 @media (max-width: 1000px) {
-    .container {
+    .container, .container-main{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -118,4 +157,5 @@ header {
         width: 100%;
         margin-top: 11.4rem;
     }
+ 
 }
