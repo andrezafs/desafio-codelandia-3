@@ -132,17 +132,28 @@ footer {
 .container-contato input {
     width:47rem ;
     height: 6.5rem;
+    border: none;
+    border-radius: .6rem;
+    margin-bottom: 1.5rem;
 }
 ::placeholder {
     font-size: 1.8rem;
     color: var(--grey);
     font-family:'Lato', sans-serif;
 }
-.container-contato button a {
+.container-contato button a{
     font-size: 2rem;
     color: var(--white);
     font-family:'Lato', sans-serif;
     line-height: 2.4rem;
+}
+.container-contato button {
+    height: 5rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    background: var(--blue-dark);
 }
 
 
