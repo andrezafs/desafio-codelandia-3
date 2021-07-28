@@ -150,9 +150,10 @@ textarea {
 .container-contato button:hover {
     background: var(--purple);
     border: .1rem solid var(--blue-dark);
-    color: var(--purple);
 }
-
+input:focus, textarea:focus {
+    border: .1rem solid var(--blue-dark);
+}
 
 
 @media (max-width: 900px) {
