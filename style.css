@@ -147,7 +147,7 @@ textarea {
     margin-bottom: 1.5rem;
 }
 
-.container-contato button:hover {
+ button:hover {
     background: var(--purple);
     border: .1rem solid var(--blue-dark);
 }
