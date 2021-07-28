@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="variaveis.css">
     <link rel="stylesheet" href="colors.css">
+    <script src="assets/js/scripts.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -89,5 +90,17 @@
             </form>
         </section>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+        ScrollReveal().reveal('.container', { delay: 20 });
+        ScrollReveal().reveal('.card-color', { delay: 500 });
+        ScrollReveal().reveal('.container-contato', { delay: 600 });
+</script>
 </body>
 </html>
