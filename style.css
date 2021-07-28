@@ -73,6 +73,11 @@ a {
     background: var(--white);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
+.card:hover {
+    cursor: pointer;
+    border: .1rem solid var(--blue-dark);
+  
+}
 .card-color {
     height: 50%;
 }
