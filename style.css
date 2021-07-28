@@ -10,6 +10,12 @@ font-family: 'Merriweather', serif; */
     text-decoration: none;
     font-size: 62.5%;
 }
+button {
+    border-radius: .5rem;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    background: var(--blue-dark);
+    height: 5rem;
+}
 h2 {
     margin: 0;
     font-family:'Merriweather', serif; 
@@ -23,7 +29,7 @@ img {
     height: auto;
     display: block;
   }
-  button a{
+a {
     font-size: 2rem;
     color: var(--white);
     font-family:'Lato', sans-serif;
@@ -49,12 +55,7 @@ img {
     line-height: 4.7rem;
 }
 .container .text button {
-    background: var(--blue);
-    border: 0;
-    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
-    border-radius: 5px;
     width: 15.5rem;
-    height: 5rem;
 }
 
 .container-main {
@@ -143,22 +144,15 @@ footer {
 textarea {
     height: 16.5rem;
     resize: none;
+    margin-bottom: 1.5rem;
 }
-.container-contato button {
-    height: 5rem;
-    margin-top: 1.5rem;
-    border: none;
-    border-radius: .5rem;
-    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
-    background: var(--blue-dark);
-}
+
 .container-contato button:hover {
     background: var(--purple);
+    border: .1rem solid var(--blue-dark);
+    color: var(--purple);
 }
-button:focus,
-input:focus {
-  border: 0;
-}
+
 
 
 @media (max-width: 900px) {
