@@ -162,14 +162,19 @@ input:focus, textarea:focus {
 
 
 @media (max-width: 900px) {
-    .container, .container-main{
+    .container, .container-main, .container-contato{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+    .container {
         padding: 5%;
     }
+    .container-main {
+        padding: 2rem 0;
+    }
     .card {
-        margin-left: 3rem;
+        width: 90%;
     }
     .container .text p {
         line-height: 3.2rem;
