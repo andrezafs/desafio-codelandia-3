@@ -162,12 +162,12 @@ input:focus, textarea:focus {
 
 
 @media (max-width: 900px) {
-    .container, .container-main, .container-contato{
-        flex-wrap: wrap;
+    header, .container-main, .container-contato{
         align-items: center;
         justify-content: center;
     }
     .container {
+        flex-wrap: wrap;
         padding: 5%;
     }
     .container-main {
@@ -191,3 +191,4 @@ input:focus, textarea:focus {
         height: 15rem;
     }
 }
+
